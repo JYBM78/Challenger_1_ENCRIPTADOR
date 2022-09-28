@@ -1,0 +1,53 @@
+<html>
+    <!---aquí van todos links a fuentes externas--->
+    <head>  
+        <link rel="stylesheet"href="estilos.css">         
+    </head>
+    <!---La parte visible--->
+    <body> 
+        <!---Primera etiqueta--->
+        <header>  
+            <img src="Logo_Alura.png" alt="imagen de alura">
+        </header>
+        <!---Segunda etiqueta--->
+        <main> 
+            <section class="seccion1"> 
+                <textarea class="area" placeholder = "Ingrese el texto aquí"></textarea>
+
+                <div class="contenedor-botones">
+
+                    <input type="button" class="btn-encriptar" value="Encriptar"> <!--botón de encriptar-->
+                    <input type="button" class="btn-desencriptar" value="Desencriptar"> <!--botón de desencriptar-->
+                </div>
+            </section>
+            <section class="seccion2">
+                <div class="contenedor-munieco">
+                    <img src="Muñeco.png" alt="munieco de alura">
+                </div>
+                <div class="contenedor-h3">
+                    <h3>Ningún mensaje fué encontrado</h3>
+                </div>
+                <div class="contenedor-parrafo">
+                    <p>Ingrese el texto que desea encriptar o desencriptar</p>
+                </div>
+
+                <div class="contenedor-resultado">
+                    <h3>Mensaje encriptado: </h3>
+                    <p class="texto-resultado"></p>
+                </div>
+                <div class="contenedor-copiar">
+                    <input type="button" class="btn-copiar" value="Copiar">
+
+                </div>
+            </section>            
+        </main>
+        <!--Pié de página-->
+        <footer>
+            <p>Alura, desafío Nº 1</p>
+        </footer>
+        
+        <script src="archivo.js"></script> <!--Se vincula el archivo.js al html-->
+    </body>
+
+
+</html>
